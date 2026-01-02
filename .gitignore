@@ -1,0 +1,13 @@
+# 忽略数据集
+gtsrb-german-traffic-sign/
+gtsrb-german-traffic-sign.zip
+
+# 忽略日志和缓存
+runs/
+__pycache__/
+.vscode/
+
+# 忽略太大的模型 (如果你的 .pth 文件超过100MB)
+*.pth
+# 如果你的 model_40.pth 小于 100MB，想上传它，可以在前面加 !
+!model/best_stn_model.pth
