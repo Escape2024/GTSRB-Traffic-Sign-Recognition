@@ -2,7 +2,7 @@
 
 > **课程名称**：人工智能 (Artificial Intelligence)  
 > **项目性质**：期末课程项目 (Course Project)  
-> **测试集准确率**：**97.81%** (Top-1 Accuracy)
+> **测试集准确率**：**98.23%** (Top-1 Accuracy)
 
 ---
 
