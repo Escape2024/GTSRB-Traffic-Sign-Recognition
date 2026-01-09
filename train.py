@@ -68,7 +68,6 @@ class EarlyStopping:
 # --- 主程序 ---
 def main():
     # 1. 数据预处理
-    # 你的模型包含STN模块，对几何变换有一定鲁棒性，但基础的Resize和归一化是必须的
     data_transforms = transforms.Compose([
         transforms.Resize((32, 32)),  # 严格匹配模型 STN 和 CNN 的输入维度
         transforms.ToTensor(),
